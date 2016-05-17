@@ -1,0 +1,24 @@
+.home-form {
+  padding: 48px 34px 48px 34px;
+  background: #eeebeb;
+  background: rgb(238, 235, 235);
+  background: rgba(238, 235, 235, 0.8);
+}
+.btm-margin-30 {
+  margin-bottom: 30px !important;
+}
+.home-message ul {
+  margin-left:20px;
+}
+
+.home-message {
+  text-shadow: 2px 2px 2px #333,
+   -1px -1px 0 #333,
+    1px -1px 0 #333,
+   -1px  1px 0 #333,
+    1px  1px 0 #333;
+}
+
+.home-message h2 {
+  color: #fff;
+}
