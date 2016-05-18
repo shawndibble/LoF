@@ -147,16 +147,7 @@
     DATAPICKER -->
     =============================================== */
 
-        $( "#datepicker" ).datepicker();
-        $( "#datepicker1" ).datepicker();
-        $( "#datepicker2" ).datepicker();
-        $( "#datepicker3" ).datepicker();
-        $( "#datepicker4" ).datepicker();
-        $( "#datepicker5" ).datepicker();
-        $( "#datepicker6" ).datepicker();
-        $( "#datepicker7" ).datepicker();
-        $( "#datepicker8" ).datepicker();
-        $( "#datepicker9" ).datepicker();
+        $('.datetimepicker').datetimepicker();
 
     /* ==============================================
     MAP -->
@@ -197,7 +188,7 @@
               infowindow.setContent(locations[i][0]);
               infowindow.close(map, marker);
             }
-        })(marker, i));
-    }
+          })(marker, i));
+        }
 
     })(jQuery);

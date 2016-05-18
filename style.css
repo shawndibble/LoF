@@ -465,9 +465,9 @@ a,
 	vertical-align: middle;
 	padding-right: 5px
 }
-.post-media {
+/*.post-media {
 	margin-bottom: 20px;
-}
+}*/
 .post-media img {
 	width: 100%;
 }
@@ -694,7 +694,7 @@ a,
 	margin-bottom: 15px;
 }
 .hotel-wrapper .post-title {
-	margin-top: 30px;
+	margin-top: 5px;
 }
 .single-hotel-image {
 	position: relative;
@@ -876,7 +876,7 @@ a,
 	line-height: 28px;
 }
 .homeform {
-	padding:200px 0 40px;
+	padding:100px 0 40px;
 }
 .home-form .nav-tabs > li {
 	width: 20%;

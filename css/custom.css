@@ -17,8 +17,26 @@
     1px -1px 0 #333,
    -1px  1px 0 #333,
     1px  1px 0 #333;
+  font-weight: bold;
+}
+
+#call-to-action .home-message {
+  padding: 0;
 }
 
 .home-message h2 {
   color: #fff;
+}
+
+#testimonials {
+  text-shadow: 1px 1px 1px #eee,
+   -1px -1px 0 #eee,
+    1px -1px 0 #eee,
+   -1px  1px 0 #eee,
+    1px  1px 0 #eee;
+  font-weight: bold;
+}
+
+.mini-desti-desc > p {
+  margin-bottom: 10px;
 }
