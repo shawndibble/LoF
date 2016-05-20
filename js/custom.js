@@ -12,15 +12,35 @@
     })
 
     /* ==============================================
-    HOME SELECT -->
+    HOME PACK SELECT -->
     =============================================== */
 
     $('#pack').change(function () {
-        var selected = $('#pack').val();
-        $('.home-message > div').addClass('hidden');
-        $('#'+selected).removeClass('hidden');
+      updateHomePackDescription();
     })
 
+    $('.book-now').click(function () {
+      var value = $(this).data('val');
+      $('#pack').selectpicker('val', value);
+      $('#pack').selectpicker('refresh');
+      updateHomePackDescription();
+    });
+
+    /* ==============================================
+    HOME FORM SUBMISSION -->
+    =============================================== */
+
+      $('#custom-button').click(function(){
+        $(this).closest('form').attr("action", "options.php");
+      });
+
+      $('#home-book-button').click(function() {
+        if ($('#pack').val() == 'custom_pack') {
+          $(this).closest('form').attr("action", "options.php");
+        } else {
+          $(this).closest('form').attr("action", "success.php");
+        }
+      });
 
     /* ==============================================
     MENU HOVER -->
@@ -138,7 +158,7 @@
                     items:2
                 },
                 1000:{
-                    items:2
+                    items:3
                 }
             }
         })
@@ -191,4 +211,10 @@
           })(marker, i));
         }
 
-    })(jQuery);
+})(jQuery);
+
+function updateHomePackDescription() {
+  var selected = $('#pack').val();
+  $('.home-message > div').addClass('hidden');
+  $('#'+selected).removeClass('hidden');
+}

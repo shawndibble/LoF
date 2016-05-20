@@ -2,6 +2,11 @@
   $page = "Contact";
   $pageDescription = "";
 
+  //BEGIN CONTACT FORM PROCESSING
+
+
+  //END CONTACT FORM PROCESSING
+
   require('header.php');
 ?>
     <section id="page-header" class="section background">
@@ -15,7 +20,7 @@
     </section><!-- end section -->
 
     <div class="map">
-        <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.358248932185!2d144.97024199999998!3d-37.827057399999994!2m3! !2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2sMelbourne+Victoria%2C+Avustralya!5e0!3m2!1str!2s!4v1426652198251" height="430"></iframe>
+        <iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d220481.1891359314!2d-97.85227835312502!3d30.293532673688627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1463680360120" height="430"></iframe>
     </div>
 
     <section class="section clearfix">
@@ -29,11 +34,9 @@
                             <h5>Contact Info</h5>
                             <div class="contact-info">
                             <ul>
-                                <li><i class="icon-map"></i> 16 East Wood Avenue, New York, NY 778569, USA</li>
-                                <li><i class="icon-phone"></i> <strong>Phone:</strong> +444 123456789</li>
-                                <li><i class="icon-print"></i> <strong>Fax:</strong> +444 123456789</li>
-                                <li><i class="icon-mail"></i> <strong>Email:</strong> <a href="#">hello@domain.com</a></li>
-                                <li><i class="icon-link"></i> <strong>Web:</strong> <a href="#">www.domain.com</a></li>
+                                <li><i class="icon-phone"></i> <strong>Phone:</strong> (512) 769-0163</li>
+                                <li><i class="icon-mail"></i> <strong>Email:</strong> <a href="mailto:legionoffoam@gmail.com">legionoffoam@gmail.com</a></li>
+                                <li><i class="icon-link"></i> <strong>Links: </strong> <a href="#">Yelp</a> | <a href="">Facebook</a> | <a href="">Twitter</a></li>
                             </ul>
                             </div>
                         </div><!-- end col -->
@@ -42,7 +45,7 @@
                             <h5>Contact Form</h5>
                             <div id="contact_form" class="contact_form">
                                 <div id="message"></div>
-                                <form id="contactform" class="row" action="contact.php" name="contactform" method="post">
+                                <form id="contactform" class="row" action="process-contact.php" name="contactform" method="post">
                                     <div class="col-md-6 col-sm-6 col-xs-12">
                                     <input type="text" name="name" id="name" class="form-control" placeholder="Name *">
                                     </div>

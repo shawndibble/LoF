@@ -11,7 +11,7 @@
                 <div class="col-md-5 col-xs-12">
                     <div class="home-form" id="booking-form">
                       <h6>ARE YOU READY FOR A NERF<sup>&reg;</sup> FIGHT?</h6>
-                      <form class="bookform form-inline row">
+                      <form class="bookform form-inline row" method="post">
                           <div class="form-group btm-margin-30 col-md-12 col-sm-12 col-xs-12">
                               <div class="dropdown">
                                   <select class="selectpicker" id="pack" data-style="btn-white">
@@ -26,39 +26,39 @@
                           </div>
                           <div class="form-group btm-margin-30 col-md-6 col-sm-6 col-xs-12">
                             <div class="input-group">
-                              <input type="text" class="form-control" placeholder="Name">
+                              <input type="text" class="form-control" id="name" placeholder="Name" required="true">
                             </div>
                           </div>
                           <div class="form-group btm-margin-30 col-md-6 col-sm-6 col-xs-12">
                             <div class="input-group">
-                              <input type="text" class="form-control" placeholder="Email">
+                              <input type="text" class="form-control" id="email" placeholder="Email" required="true">
                             </div>
                           </div>
                           <div class="form-group btm-margin-30 col-md-6 col-sm-6 col-xs-12">
                             <div class="input-group">
-                              <input type="text" class="form-control" placeholder="Phone">
+                              <input type="text" class="form-control" id="phone" placeholder="Phone">
                             </div>
                           </div>
                           <div class="form-group btm-margin-30 col-md-6 col-sm-6 col-xs-12">
                             <div class="input-group">
-                              <input type="text" class="form-control" placeholder="Location">
+                              <input type="text" class="form-control" id="location" placeholder="Location" required="true">
                             </div>
                           </div>
                           <div class="form-group btm-margin-30 col-md-6 col-sm-6 col-xs-12">
                               <div class="input-group">
-                                  <input type="text" class="form-control datetimepicker" placeholder="Event Start">
+                                  <input type="text" class="form-control datetimepicker" id="start" placeholder="Event Start" required="true">
                               </div>
                           </div>
                           <div class="form-group btm-margin-30 col-md-6 col-sm-6 col-xs-12">
                               <div class="input-group">
-                                  <input type="text" class="form-control datetimepicker" placeholder="Event End">
+                                  <input type="text" class="form-control datetimepicker" id="end" placeholder="Event End" required="true">
                               </div>
                           </div>
                           <div class="form-group col-md-8 col-sm-12 col-xs-12">
-                              <button type="submit" class="btn btn-primary btn-block"><i class="icon-search"></i> BOOK NOW</button>
+                              <button type="submit" class="btn btn-primary btn-block" id="home-book-button"><i class="icon-calendar"></i> BOOK NOW</button>
                           </div>
                           <div class="form-group col-md-4 col-sm-12 col-xs-12">
-                              <button type="submit" class="btn btn-default btn-block">CUSTOM</button>
+                              <button type="submit" class="btn btn-default btn-block" id="custom-button">CUSTOM</button>
                           </div>
                       </form>
                     </div><!-- end homeform -->
@@ -188,7 +188,7 @@
                 <div class="col-md-6">
                     <div class="mini-desti row">
                         <div class="col-sm-4">
-                            <img src="upload/mini_desti_01.jpg" alt="" class="img-responsive">
+                            <img src="upload/party-pack.jpg" alt="" class="img-responsive">
                         </div><!-- end col -->
                         <div class="col-sm-8">
                             <div class="mini-desti-title">
@@ -203,7 +203,7 @@
                                     <p>Description of this pack to put here. Something to distinguish from the other packs.</p>
                                 </div>
                                 <div class="pull-right">
-                                  <button href="#" id="book-party" class="btn btn-primary btn-sm">Book Now</button>
+                                  <a href="#booking-form" data-val="party_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
                                 </div>
                             </div><!-- end title -->
                         </div><!-- end col -->
@@ -211,7 +211,7 @@
 
                     <div class="mini-desti row">
                         <div class="col-sm-4">
-                            <img src="upload/mini_desti_02.jpg" alt="" class="img-responsive">
+                            <img src="upload/sample-pack.jpg" alt="" class="img-responsive">
                         </div><!-- end col -->
                         <div class="col-sm-8">
                             <div class="mini-desti-title">
@@ -226,7 +226,7 @@
                                     <p>Description of this pack to put here. Something to distinguish from the other packs.</p>
                                 </div>
                                 <div class="pull-right">
-                                  <button href="#" id="book-sample" class="btn btn-primary btn-sm">Book Now</button>
+                                  <a href="#booking-form" data-val="sample_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
                                 </div>
                             </div><!-- end title -->
                         </div><!-- end col -->
@@ -234,7 +234,7 @@
 
                     <div class="mini-desti row noborder">
                         <div class="col-sm-4">
-                            <img src="upload/mini_desti_03.jpg" alt="" class="img-responsive">
+                            <img src="upload/relay-pack.jpg" alt="" class="img-responsive">
                         </div><!-- end col -->
                         <div class="col-sm-8">
                             <div class="mini-desti-title">
@@ -249,7 +249,7 @@
                                     <p>Description of this pack to put here. Something to distinguish from the other packs.</p>
                                 </div>
                                 <div class="pull-right">
-                                  <button href="#" id="book-relay" class="btn btn-primary btn-sm">Book Now</button>
+                                  <a href="#booking-form" data-val="relay_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
                                 </div>
                             </div><!-- end title -->
                         </div><!-- end col -->
@@ -259,7 +259,7 @@
                 <div class="col-md-6">
                     <div class="mini-desti row">
                         <div class="col-sm-4">
-                            <img src="upload/mini_desti_04.jpg" alt="" class="img-responsive">
+                            <img src="upload/pistol-pack.jpg" alt="" class="img-responsive">
                         </div><!-- end col -->
                         <div class="col-sm-8">
                             <div class="mini-desti-title">
@@ -274,7 +274,7 @@
                                     <p>Description of this pack to put here. Something to distinguish from the other packs.</p>
                                 </div>
                                 <div class="pull-right">
-                                  <button href="#" id="book-pistol" class="btn btn-primary btn-sm">Book Now</button>
+                                  <a href="#booking-form" data-val="pistol_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
                                 </div>
                             </div><!-- end title -->
                         </div><!-- end col -->
@@ -282,7 +282,7 @@
 
                     <div class="mini-desti row">
                         <div class="col-sm-4">
-                            <img src="upload/mini_desti_05.jpg" alt="" class="img-responsive">
+                            <img src="upload/water-pack.jpg" alt="" class="img-responsive">
                         </div><!-- end col -->
                         <div class="col-sm-8">
                             <div class="mini-desti-title">
@@ -297,7 +297,7 @@
                                     <p>Description of this pack to put here. Something to distinguish from the other packs.</p>
                                 </div>
                                 <div class="pull-right">
-                                  <button href="#" id="book-water" class="btn btn-primary btn-sm">Book Now</button>
+                                  <a href="#booking-form" data-val="water_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
                                 </div>
                             </div><!-- end title -->
                         </div><!-- end col -->
@@ -305,7 +305,7 @@
 
                     <div class="mini-desti row noborder">
                         <div class="col-sm-4">
-                            <img src="upload/mini_desti_06.jpg" alt="" class="img-responsive">
+                            <img src="upload/party-pack.jpg" alt="" class="img-responsive">
                         </div><!-- end col -->
                         <div class="col-sm-8">
                             <div class="mini-desti-title">
@@ -320,7 +320,7 @@
                                     <p>Description of this pack to put here. Something to distinguish from the other packs.</p>
                                 </div>
                                 <div class="pull-right">
-                                  <button href="#" id="book-custom" class="btn btn-primary btn-sm">Book Now</button>
+                                  <a href="#booking-form" data-val="custom_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
                                 </div>
                             </div><!-- end title -->
                         </div><!-- end col -->
@@ -330,10 +330,10 @@
         </div><!-- end container -->
     </section><!-- end section -->
 
-    <section class="section fullscreen background parallax" style="background-image:url('upload/parallax_03.jpg');" data-img-width="1920" data-img-height="586" data-diff="10">
+    <section class="section fullscreen background parallax" style="background-image:url('upload/parallax_03.jpg');" data-img-width="1280" data-img-height="600" data-diff="10">
         <div class="container">
             <div id="testimonials">
-                <div class="testi-item">
+                <div class="testi-item home-message text-center">
                     <div class="hotel-title text-center">
                         <h3>THE TRIPS SAVED MY LIFE!</h3>
                         <hr>
@@ -344,7 +344,7 @@
                     </div>
                 </div><!-- end testi-item -->
 
-                <div class="testi-item">
+                <div class="testi-item home-message text-center">
                     <div class="hotel-title text-center">
                         <h3>THANKS YOU TRIPS! THIS IS AMAZING TRAVEL!</h3>
                         <hr>
@@ -360,6 +360,12 @@
 
     <section class="nopadding clearfix">
         <div class="owl-fullwidth">
+            <div class="owl-item-full">
+                <img src="upload/home_mini_slider_04.jpg" alt="">
+            </div>
+            <div class="owl-item-full">
+                <img src="upload/home_mini_slider_03.jpg" alt="">
+            </div>
             <div class="owl-item-full">
                 <img src="upload/home_mini_slider_02.jpg" alt="">
             </div>

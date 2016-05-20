@@ -1,4 +1,4 @@
-/* 
+/*
  *  Default theme - Owl Carousel CSS File
  */
 
@@ -28,10 +28,6 @@
 }
 .top-destinations .post-title {
   padding-top: 10px;
-}
-
-.testi-item .hotel-title {
-    padding: 50px 0;
 }
 
 .owl-theme .owl-controls .owl-nav [class*='owl-'] {
@@ -77,7 +73,7 @@
   background: #869791;
 }
 
-/* 
+/*
  *  Owl Carousel - Animate Plugin
  */
 .owl-carousel .animated {
@@ -116,7 +112,7 @@
   }
 }
 
-/* 
+/*
  * 	Owl Carousel - Auto Height Plugin
  */
 .owl-height {
@@ -127,7 +123,7 @@
   transition: height 500ms ease-in-out;
 }
 
-/* 
+/*
  *  Core Owl Carousel CSS File
  */
 .owl-carousel {
@@ -265,7 +261,7 @@
   display: block;
 }
 
-/* 
+/*
  * 	Owl Carousel - Lazy Load Plugin
  */
 .owl-carousel .owl-item .owl-lazy {
@@ -280,7 +276,7 @@
   transform-style: preserve-3d;
 }
 
-/* 
+/*
  * 	Owl Carousel - Video Plugin
  */
 .owl-carousel .owl-video-wrapper {

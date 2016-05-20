@@ -47,7 +47,7 @@
                                         <div class="panel-title">
                                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
                                                 <h3>Can I create a custom package?</h3>
-                                            </a><i class="indicator icon-minus pull-right"></i>
+                                            </a>
                                         </div>
                                     </div>
                                     <div id="collapseOne" class="panel-collapse collapse in">
@@ -62,7 +62,7 @@
                                         <div class="panel-title">
                                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
                                                 <h3>What's the minimum age to operate the weapons?</h3>
-                                            </a><i class="indicator icon-plus pull-right"></i>
+                                            </a>
                                         </div>
                                     </div>
                                     <div id="collapseTwo" class="panel-collapse collapse">
@@ -77,7 +77,7 @@
                                         <div class="panel-title">
                                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
                                                 <h3>What happens if darts are missing or damaged?</h3>
-                                            </a><i class="indicator icon-plus pull-right"></i>
+                                            </a>
                                         </div>
                                     </div>
                                     <div id="collapseThree" class="panel-collapse collapse">
@@ -92,7 +92,7 @@
                                         <div class="panel-title">
                                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
                                                 <h3>What payment methods do you accept?</h3>
-                                            </a><i class="indicator icon-plus pull-right"></i>
+                                            </a>
                                         </div>
                                     </div>
                                     <div id="collapseFour" class="panel-collapse collapse">
@@ -107,7 +107,7 @@
                                         <div class="panel-title">
                                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
                                                 <h3>How does the deposit work?</h3>
-                                            </a><i class="indicator icon-plus pull-right"></i>
+                                            </a>
                                         </div>
                                     </div>
                                     <div id="collapseFive" class="panel-collapse collapse">
@@ -122,7 +122,7 @@
                                         <div class="panel-title">
                                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
                                                 <h3>How long can I rent the equipment for?</h3>
-                                            </a><i class="indicator icon-plus pull-right"></i>
+                                            </a>
                                         </div>
                                     </div>
                                     <div id="collapseSix" class="panel-collapse collapse">
@@ -137,7 +137,7 @@
                                         <div class="panel-title">
                                             <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
                                                 <h3>Can I add extras onto a pre-made pack?</h3>
-                                            </a><i class="indicator icon-plus pull-right"></i>
+                                            </a>
                                         </div>
                                     </div>
                                     <div id="collapseSeven" class="panel-collapse collapse">
