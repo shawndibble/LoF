@@ -215,6 +215,6 @@
 
 function updateHomePackDescription() {
   var selected = $('#pack').val();
-  $('.home-message > div').addClass('hidden');
-  $('#'+selected).removeClass('hidden');
+  $('.pack-description > div').addClass('hidden');
+  $('.'+selected).removeClass('hidden');
 }

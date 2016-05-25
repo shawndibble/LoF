@@ -3,6 +3,80 @@
   $pageDescription = '';
 
   require("header.php");
+
+  $party = "
+  <h1>Party Pack</h1>
+  <ul>
+    <li>20 Assorted Weapons</li>
+    <li>10 Inflatable Barriers</li>
+    <li>9 Inflatable X's</li>
+    <li>20 Safety Glasses</li>
+    <li>320 Darts</li>
+    <li>1 Black (Adult) or Grey (Youth) T-Shirt</li>
+    <li>20 Stickers</li>
+    <li>20 Camo Helmets</li>
+  </ul>
+  <p></p>
+  <h2>$270 &plus; $40 Deposit</h2>";
+
+  $sample = "
+    <h1>Sample Pack</h1>
+    <ul>
+      <li>18 Assorted Weapons</li>
+      <li>10 Inflatable Barriers</li>
+      <li>9 Inflatable X's</li>
+      <li>18 Safety Glasses</li>
+      <li>250 Darts</li>
+      <li>1 Black (Adult) or Grey (Youth) T-Shirt</li>
+      <li>1 Sticker</li>
+    </ul>
+    <p></p>
+    <h2>$220 &plus; $40 Deposit</h2>";
+
+  $relay = "
+    <h1>Relay Pack</h1>
+    <ul>
+      <li>16 Assorted Weapons</li>
+      <li>10 Inflatable Barriers</li>
+      <li>9 Inflatable X's</li>
+      <li>16 Safety Glasses</li>
+      <li>230 Darts</li>
+      <li>1 Black (Adult) or Grey (Youth) T-Shirt</li>
+      <li>1 Sticker</li>
+    </ul>
+    <p></p>
+    <h2>$210 &plus; $40 Deposit</h2>";
+
+  $pistol = "
+    <h1>Pistol Pack</h1>
+    <ul>
+      <li>20 Mixed Pistols</li>
+      <li>10 Inflatable Barriers</li>
+      <li>9 Inflatable X's</li>
+      <li>20 Safety Glasses</li>
+      <li>200 Darts</li>
+      <li>1 Black (Adult) or Grey (Youth) T-Shirt</li>
+      <li>1 Sticker</li>
+    </ul>
+    <p></p>
+    <h2>$200 &plus; $40 Deposit</h2>";
+
+  $water = "
+    <h1>Water Pack</h1>
+    <ul>
+      <li>20 Assorted Water Guns</li>
+      <li>10 Inflatable Barriers</li>
+      <li>10 Inflatable X's</li>
+    </ul>
+    <p></p>
+    <h2>$100 &plus; $40 Deposit</h2>";
+
+  $custom = "
+    <h1>Custom Pack</h1>
+    <p>Custom Packs are built based on what weapons and items you pick on the next page.</p>
+    <p>All packs can be customized, however this one will not utilize the pre-built templates.</p>
+    <p></p>
+    <h2>Cost Varies &plus; $40 Deposit</h2>";
 ?>
 
     <section class="section fullscreen background parallax" style="background-image:url('upload/parallax_04.jpg');" data-img-width="1920" data-img-height="1133" data-diff="100">
@@ -24,6 +98,16 @@
                                   </select>
                               </div>
                           </div>
+                          <div class="hidden-md hidden-lg">
+                              <div class="home-message pack-description">
+                                <div class="party_pack"><?= $party ?></div>
+                                <div class="hidden sample_pack"><?= $sample ?></div>
+                                <div class="hidden relay_pack"><?= $relay ?></div>
+                                <div class="hidden pistol_pack"><?= $pistol ?></div>
+                                <div class="hidden water_pack"><?= $water ?></div>
+                                <div class="hidden custom_pack"><?= $custom ?></div>
+                              </div><!-- end homemessage -->
+                          </div><!-- end col -->
                           <div class="form-group btm-margin-30 col-md-6 col-sm-6 col-xs-12">
                             <div class="input-group">
                               <input type="text" class="form-control" id="name" placeholder="Name" required="true">
@@ -64,118 +148,18 @@
                     </div><!-- end homeform -->
                 </div><!-- end col -->
 
-                <div class="col-md-7 col-xs-12">
-                    <div class="home-message">
-                      <div id="party_pack">
-                        <h1>Party Pack</h1>
-                        <ul>
-                          <li>20 Assorted Weapons</li>
-                          <li>10 Inflatable Barriers</li>
-                          <li>9 Inflatable X's</li>
-                          <li>20 Safety Glasses</li>
-                          <li>320 Darts</li>
-                          <li>1 Black (Adult) or Grey (Youth) T-Shirt</li>
-                          <li>20 Stickers</li>
-                          <li>20 Camo Helmets</li>
-                        </ul>
-                        <p></p>
-                        <h2>$270 &plus; $40 Deposit</h2>
-                      </div>
-
-                      <div class="hidden" id="sample_pack">
-                        <h1>Sample Pack</h1>
-                        <ul>
-                          <li>18 Assorted Weapons</li>
-                          <li>10 Inflatable Barriers</li>
-                          <li>9 Inflatable X's</li>
-                          <li>18 Safety Glasses</li>
-                          <li>250 Darts</li>
-                          <li>1 Black (Adult) or Grey (Youth) T-Shirt</li>
-                          <li>1 Sticker</li>
-                        </ul>
-                        <p></p>
-                        <h2>$220 &plus; $40 Deposit</h2>
-                      </div>
-
-                      <div class="hidden" id="relay_pack">
-                        <h1>Relay Pack</h1>
-                        <ul>
-                          <li>16 Assorted Weapons</li>
-                          <li>10 Inflatable Barriers</li>
-                          <li>9 Inflatable X's</li>
-                          <li>16 Safety Glasses</li>
-                          <li>230 Darts</li>
-                          <li>1 Black (Adult) or Grey (Youth) T-Shirt</li>
-                          <li>1 Sticker</li>
-                        </ul>
-                        <p></p>
-                        <h2>$210 &plus; $40 Deposit</h2>
-                      </div>
-
-                      <div class="hidden" id="pistol_pack">
-                        <h1>Pistol Pack</h1>
-                        <ul>
-                          <li>20 Mixed Pistols</li>
-                          <li>10 Inflatable Barriers</li>
-                          <li>9 Inflatable X's</li>
-                          <li>20 Safety Glasses</li>
-                          <li>200 Darts</li>
-                          <li>1 Black (Adult) or Grey (Youth) T-Shirt</li>
-                          <li>1 Sticker</li>
-                        </ul>
-                        <p></p>
-                        <h2>$200 &plus; $40 Deposit</h2>
-                      </div>
-
-                      <div class="hidden" id="water_pack">
-                        <h1>Water Pack</h1>
-                        <ul>
-                          <li>20 Assorted Water Guns</li>
-                          <li>10 Inflatable Barriers</li>
-                          <li>10 Inflatable X's</li>
-                        </ul>
-                        <p></p>
-                        <h2>$100 &plus; $40 Deposit</h2>
-                      </div>
-
-                      <div class="hidden" id="custom_pack">
-                        <h1>Custom Pack</h1>
-                        <p>Custom Packs are built based on what weapons and items you pick on the next page.</p>
-                        <p>All packs can be customized, however this one will not utilize the pre-built templates.</p>
-                        <p></p>
-                        <h2>Cost Varies &plus; $40 Deposit</h2>
-                      </div>
+                <div class="col-md-7 col-xs-12 hidden-sm hidden-xs">
+                    <div class="home-message pack-description">
+                      <div class="party_pack"><?= $party ?></div>
+                      <div class="hidden sample_pack"><?= $sample ?></div>
+                      <div class="hidden relay_pack"><?= $relay ?></div>
+                      <div class="hidden pistol_pack"><?= $pistol ?></div>
+                      <div class="hidden water_pack"><?= $water ?></div>
+                      <div class="hidden custom_pack"><?= $custom ?></div>
                     </div><!-- end homemessage -->
                 </div><!-- end col -->
             </div><!-- end row -->
         </div><!-- end container -->
-    </section><!-- end section -->
-
-
-<!-- CLIENT SECTION
-    <section class="little-padding section section-light clearfix">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2 col-xs-6">
-                    <a href="#"><img src="upload/client_01.png" alt="" class="img-responsive"></a>
-                </div><!-- end col --
-                <div class="col-md-2 col-xs-6">
-                    <a href="#"><img src="upload/client_02.png" alt="" class="img-responsive"></a>
-                </div><!-- end col --
-                <div class="col-md-2 col-xs-6">
-                    <a href="#"><img src="upload/client_03.png" alt="" class="img-responsive"></a>
-                </div><!-- end col --
-                <div class="col-md-2 col-xs-6">
-                    <a href="#"><img src="upload/client_04.png" alt="" class="img-responsive"></a>
-                </div><!-- end col --
-                <div class="col-md-2 col-xs-6">
-                    <a href="#"><img src="upload/client_01.png" alt="" class="img-responsive"></a>
-                </div><!-- end col --
-                <div class="col-md-2 col-xs-6">
-                    <a href="#"><img src="upload/client_02.png" alt="" class="img-responsive"></a>
-                </div><!-- end col --
-            </div><!-- end row --
-        </div><!-- end container --
     </section><!-- end section -->
 
     <section class="section clearfix">
