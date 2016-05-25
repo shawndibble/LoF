@@ -166,7 +166,7 @@
 
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                       <div class="post-media">
-                                        <img src="upload/Swarmfire.JPG" alt="Swarmfire" class="img-responsive">
+                                        <img src="upload/Swarmfire.jpg" alt="Swarmfire" class="img-responsive">
                                       </div><!-- end media -->
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Swarmfire</h5>
@@ -652,7 +652,7 @@
 
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                       <div class="post-media">
-                                        <img src="upload/Stormfire.jpg" alt="Stormfire" class="img-responsive">
+                                        <img src="upload/Stormfire.JPG" alt="Stormfire" class="img-responsive">
                                       </div><!-- end media -->
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Stormfire</h5>
@@ -724,7 +724,7 @@
 
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                       <div class="post-media">
-                                        <img src="upload/Jolt.jpg" alt="Jolt" class="img-responsive">
+                                        <img src="upload/jolt.jpg" alt="Jolt" class="img-responsive">
                                       </div><!-- end media -->
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Jolt</h5>
@@ -776,7 +776,7 @@
 
                                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                       <div class="post-media">
-                                        <img src="upload/Clips.jpg" alt="Clips" class="img-responsive">
+                                        <img src="upload/Clips.JPG" alt="Clips" class="img-responsive">
                                       </div><!-- end media -->
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Clips</h5>
