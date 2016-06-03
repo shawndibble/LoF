@@ -45,9 +45,7 @@
 .post-title {border: solid 1px #35a457; margin-bottom: 30px}
 .post-title h5 {padding: 9px 0 0 9px; margin-bottom: 0;}
 .post-title button {width: 70px}
-.post-title button span {color: #fff !important}
-.post-title button:hover span {display:none}
-.post-title button:hover:before {content: "Add"}
+.post-title button {color: #fff !important}
 .post-title select {
   padding: 5px;
   border: 0;

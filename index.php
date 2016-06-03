@@ -319,12 +319,10 @@
             <div id="testimonials">
                 <div class="testi-item home-message text-center">
                     <div class="hotel-title text-center">
-                        <h3>THE TRIPS SAVED MY LIFE!</h3>
+                        <h3>THEY GO ABOVE AND BEYOND</h3>
                         <hr>
-                        <p>Template based on deep research on the most popular travel booking websites such as booking.com, tripadvisor, yahoo<br>
-                            travel, expedia, priceline, hotels.com, travelocity, kayak, orbitz, etc. This guys can’t be wrong.<br>
-                            You should definitely give it a shot :)</p>
-                        <h6>- DAVID / CEO AGODA -</h6>
+                        <p>Our elementary school partnered with L.O.F. for our school Carnival, &amp; we could not have been more satisfied with the results. The LOF team was extremely professional, detailed, and made sure the kids had a blast, even Hook'em got involved! If you want an activity that the kids will love and is provided by a company that goes above and beyond to make it special and fun, then I recommend Legion of Foam. </p>
+                        <h6>- ROBERT R. / BARRON ELEMENTARY PTO PRESIDENT -</h6>
                     </div>
                 </div><!-- end testi-item -->
 

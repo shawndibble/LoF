@@ -48,7 +48,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Party</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$270</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$270</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -60,7 +60,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Sample</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$220</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$220</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -72,7 +72,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Relay</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$210</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$210</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -84,7 +84,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Pistol</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$200</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$200</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -96,7 +96,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Water</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$100</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$100</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -123,7 +123,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Rhino Fire</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$20</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$20</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -135,7 +135,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Vulcan</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$14</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$14</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -147,7 +147,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Rapidstrike</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$12</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$12</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -159,7 +159,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Stampede</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$11</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$11</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -171,7 +171,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Swarmfire</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$11</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$11</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -183,7 +183,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Powerbelle</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$11</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$11</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -195,7 +195,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Rayven</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$10</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$10</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -207,7 +207,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Hail-Fire</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$10</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$10</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -219,7 +219,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Stryfe</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$10</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$10</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -231,7 +231,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Barricade</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$8</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$8</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -258,7 +258,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Magstrike</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$10</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$10</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -270,7 +270,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Rapidfire</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$8</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$8</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -282,7 +282,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Hornet</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$8</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$8</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -309,7 +309,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Doominator</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$11</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$11</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -321,7 +321,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Barrel Break</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$10</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$10</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -333,7 +333,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Flipfury</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$10</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$10</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -345,7 +345,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">RoughCut</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$10</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$10</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -357,7 +357,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Crossfire</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$8</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$8</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -369,7 +369,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Longshot</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$8</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$8</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -381,7 +381,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Splitstrike</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$8</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$8</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -393,7 +393,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Recon</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$8</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$8</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -405,7 +405,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Raider</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$8</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$8</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -417,7 +417,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Deploy</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$8</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$8</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -429,7 +429,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Alpha Trooper</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$8</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$8</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -441,7 +441,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Hyperfire</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$8</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$8</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -453,7 +453,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Furyfire</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$8</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$8</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -465,7 +465,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Hammershot</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$7</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$7</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -477,7 +477,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Spectre</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$7</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$7</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -489,7 +489,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Firefly</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$7</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$7</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -501,7 +501,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">SnapFire</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$7</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$7</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -513,7 +513,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Maverick</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$6</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$6</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -525,7 +525,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Strongarm</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$6</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$6</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -537,7 +537,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Sharpfire</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$6</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$6</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -549,7 +549,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Spylight</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$6</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$6</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -561,7 +561,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Doublestrike</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$5</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$5</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -573,7 +573,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Firestrike</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$5</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$5</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -585,7 +585,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Nite Finder</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$5</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$5</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -597,7 +597,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Element</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$5</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$5</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -609,7 +609,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Switch Shot</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$5</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$5</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -621,7 +621,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Sidestrike</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$5</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$5</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -633,7 +633,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Scout</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$5</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$5</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -645,7 +645,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Sharp Shot</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$5</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$5</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -657,7 +657,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Stormfire</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$5</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$5</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -669,7 +669,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Tech Target</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$5</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$5</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -681,7 +681,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Strikefire</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$4</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$4</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -693,7 +693,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Reflex</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$3</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$3</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -705,7 +705,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Triad</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$3</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$3</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -717,7 +717,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Sneak Attacker</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$3</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$3</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -729,7 +729,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Jolt</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$2</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$2</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -757,7 +757,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Adult Shirt</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$20</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$20</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -769,7 +769,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Youth Shirt</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$15</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$15</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -786,7 +786,7 @@
                                                 <option value="12">12</option>
                                                 <option value="18">18</option>
                                               </select>
-                                              <button class="btn btn-sm btn-primary"><span>Add</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">Add</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -803,7 +803,7 @@
                                                 <option value="25">25</option>
                                                 <option value="35">35</option>
                                               </select>
-                                              <button class="btn btn-sm btn-primary"><span>Add</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">Add</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -815,7 +815,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">10 Darts</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$1.50</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$1.50</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -827,7 +827,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Scopes</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$.50</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$.50</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -839,7 +839,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">10 Inflatables</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>$50</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">$50</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->
@@ -851,7 +851,7 @@
                                       <div class="post-title clearfix">
                                           <h5 class="pull-left">Eye Protection</h5>
                                           <div class="pull-right">
-                                              <button class="btn btn-sm btn-primary"><span>Free</span></button>
+                                              <button class="btn btn-sm btn-primary add-item">Free</button>
                                           </div><!-- end left -->
                                       </div><!-- end title -->
                                     </div><!-- end col -->

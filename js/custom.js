@@ -57,6 +57,26 @@
         }
     );
 
+    $('.add-item').data('price', '').data('quantity', 0)
+    .hover(function(){
+      $(this).data('price', $(this).text());
+      $(this).text('Add');
+    }, function () {
+      $(this).text($(this).data('price'));
+    }).click(function() {
+      var product = $(this).closest('.post-title').children('h5').text();
+      var price = $(this).data('price');
+
+      var quantity = $(this).data('quantity') + 1;
+      $(this).data('quantity', quantity);
+      $(this).text('+ ' + $(this).data('quantity'));
+
+      console.log('quantity: ' + quantity);
+      console.log("value: " + price);
+      console.log("product: " + product);
+
+    });
+
     /* ==============================================
     ACCORDION -->
     =============================================== */
