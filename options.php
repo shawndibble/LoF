@@ -3,13 +3,13 @@
   $pageDescription = '';
 
   //Check what info we have already
-  $name     = isset($_POST['pack']) ? $_POST['pack'] : '';
+  $pack     = isset($_POST['pack']) ? $_POST['pack'] : '';
   $name     = isset($_POST['name']) ? $_POST['name'] : '';
   $email    = isset($_POST['email']) ? $_POST['email'] : '';
   $phone   = isset($_POST['phone']) ? $_POST['phone'] : '';
-  $subject  = isset($_POST['location']) ? $_POST['location'] : '';
-  $comments = isset($_POST['start']) ? $_POST['start'] : '';
-  $verify   = isset($_POST['end']) ? $_POST['end'] : '';
+  $location  = isset($_POST['location']) ? $_POST['location'] : '';
+  $start = isset($_POST['start']) ? $_POST['start'] : '';
+  $end   = isset($_POST['end']) ? $_POST['end'] : '';
 
   require('header.php');
 ?>
@@ -31,12 +31,41 @@
 </section>
 
 <section id="sidebar-cart" class="col-xs-7 col-sm-3 col-md-2 sidebar sidebar-right sidebar-animate">
-  <h3>Your Package</h3>
-  <hr>
-  <div id="cart-contents"></div>
-  <hr>
-  Estimated Total*: <span id="cart-total"></span> <br />
-  <small>*This is only an estimate. Final price may vary.</small>
+  <form class="bookform form-inline row" method="post">
+    <h3>Your Package</h3>
+    <hr>
+    <div id="cart-contents"></div>
+    <hr>
+    Estimated Total*: <span id="cart-total">$ 0</span> <br />
+    <small>*This is only an estimate. Final price may vary.</small>
+
+          <div class="input-group">
+            <input type="text" value="<?=$name ?>" class="form-control" id="name" placeholder="Name" required="true">
+          </div>
+
+          <div class="input-group">
+            <input type="text" value="<?=$email ?>" class="form-control" id="email" placeholder="Email" required="true">
+          </div>
+
+          <div class="input-group">
+            <input type="text" value="<?=$phone ?>" class="form-control" id="phone" placeholder="Phone">
+          </div>
+
+          <div class="input-group">
+            <input type="text" value="<?=$location ?>" class="form-control" id="location" placeholder="Location" required="true">
+          </div>
+
+            <div class="input-group">
+                <input type="text" value="<?=$start ?>" class="form-control datetimepicker" id="start" placeholder="Event Start" required="true">
+            </div>
+
+            <div class="input-group">
+                <input type="text" value="<?=$end ?>" class="form-control datetimepicker" id="end" placeholder="Event End" required="true">
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="home-book-button"><i class="icon-calendar"></i> BOOK NOW</button>
+
+  </form>
 </section>
 
 <section class="section clearfix">

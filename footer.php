@@ -7,8 +7,9 @@
 
                 <div class="col-md-2 text-right">
                     <div class="social-footer">
-                        <a href="#" title="Facebook"><i class="icon-facebook"></i></a>
-                        <a href="#" title="Twitter"><i class="icon-twitter"></i></a>
+                      <a href="https://twitter.com/LegionOfFoam"><i class="fa fa-twitter"></i></a>
+                      <a href="https://www.facebook.com/legionoffoam"><i class="fa fa-facebook"></i></a>
+                      <a href="http://www.yelp.com/biz/legion-of-foam-pflugerville"><i class="fa fa-yelp"></i></a>
                     </div><!-- end social-footer -->
                 </div><!-- end col -->
             </div><!-- end row -->

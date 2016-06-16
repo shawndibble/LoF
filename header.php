@@ -60,8 +60,9 @@
             </div><!-- end left -->
             <div class="pull-right">
                 <ul class="topbar-social list-inline">
-                    <li><a href="#"><i class="icon-twitter"></i></a></li>
-                    <li><a href="#"><i class="icon-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/LegionOfFoam"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="https://www.facebook.com/legionoffoam"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="http://www.yelp.com/biz/legion-of-foam-pflugerville"><i class="fa fa-yelp" aria-hidden="true"></i></a></li>
                 </ul><!-- end list-style -->
             </div><!-- end right -->
         </div><!-- end container -->

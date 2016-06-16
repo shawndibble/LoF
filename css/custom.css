@@ -91,6 +91,41 @@
   font-weight: bold;
 }
 
-#sidebar-cart td {
-   padding: 4px;  
+#sidebar-cart td, #sidebar-cart th {
+   padding: 4px;
+}
+
+#sidebar-cart .form-control {
+  padding: 0 10px;
+  margin-bottom: 4px;
+  height: 40px;
+}
+
+#sidebar-cart .input-group {
+  width: 100%;
+}
+
+#cart-contents td:nth-child(n) {
+  white-space: nowrap;
+}
+
+#cart-contents input {
+  width: 100%;
+}
+
+#cart-contents .ui-widget-content {
+  background: #fff;
+  border: 1px solid #ccc;
+  color: #000;
+  padding: 0;
+}
+
+
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-radius: 0px !important;
+}
+
+small {
+  font-size: 80%;
 }

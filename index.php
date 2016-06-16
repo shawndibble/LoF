@@ -85,7 +85,7 @@
                 <div class="col-md-5 col-xs-12">
                     <div class="home-form" id="booking-form">
                       <h6>ARE YOU READY FOR A NERF<sup>&reg;</sup> FIGHT?</h6>
-                      <form class="bookform form-inline row" method="post">
+                      <form action="options.php" class="bookform form-inline row" method="post" enctype="application/x-www-form-urlencoded">
                           <div class="form-group btm-margin-30 col-md-12 col-sm-12 col-xs-12">
                               <div class="dropdown">
                                   <select class="selectpicker" id="pack" data-style="btn-white">
@@ -110,32 +110,32 @@
                           </div><!-- end col -->
                           <div class="form-group btm-margin-30 col-md-6 col-sm-6 col-xs-12">
                             <div class="input-group">
-                              <input type="text" class="form-control" id="name" placeholder="Name" required="true">
+                              <input type="text" class="form-control" id="name" name="name" placeholder="Name" required="true">
                             </div>
                           </div>
                           <div class="form-group btm-margin-30 col-md-6 col-sm-6 col-xs-12">
                             <div class="input-group">
-                              <input type="text" class="form-control" id="email" placeholder="Email" required="true">
+                              <input type="text" class="form-control" id="email" name="email" placeholder="Email" required="true">
                             </div>
                           </div>
                           <div class="form-group btm-margin-30 col-md-6 col-sm-6 col-xs-12">
                             <div class="input-group">
-                              <input type="text" class="form-control" id="phone" placeholder="Phone">
+                              <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone">
                             </div>
                           </div>
                           <div class="form-group btm-margin-30 col-md-6 col-sm-6 col-xs-12">
                             <div class="input-group">
-                              <input type="text" class="form-control" id="location" placeholder="Location" required="true">
+                              <input type="text" class="form-control" id="location" name="location" placeholder="Location" required="true">
                             </div>
                           </div>
                           <div class="form-group btm-margin-30 col-md-6 col-sm-6 col-xs-12">
                               <div class="input-group">
-                                  <input type="text" class="form-control datetimepicker" id="start" placeholder="Event Start" required="true">
+                                  <input type="text" class="form-control datetimepicker" id="start" name="start" placeholder="Event Start" required="true">
                               </div>
                           </div>
                           <div class="form-group btm-margin-30 col-md-6 col-sm-6 col-xs-12">
                               <div class="input-group">
-                                  <input type="text" class="form-control datetimepicker" id="end" placeholder="Event End" required="true">
+                                  <input type="text" class="form-control datetimepicker" id="end" name="end" placeholder="Event End" required="true">
                               </div>
                           </div>
                           <div class="form-group col-md-8 col-sm-12 col-xs-12">

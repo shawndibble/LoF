@@ -58,6 +58,9 @@
     );
 
     var pack = [];
+    var product = '';
+    var price = 0;
+    var quantity = 0;
 
     $('.add-item').data('price', '').data('quantity', 0)
     .hover(function(){
@@ -66,13 +69,18 @@
     }, function () {
       $(this).text($(this).data('price'));
     }).click(function() {
-      var product = $(this).closest('.post-title').children('h5').text();
-      var price = $(this).data('price');
+      product = $(this).closest('.post-title').children('h5').text();
+      price = $(this).data('price');
       price = parseInt(price.substring(1));
-      var quantity = $(this).data('quantity') + 1;
+      quantity = $(this).data('quantity') + 1;
       $(this).data('quantity', quantity);
       $(this).text('+ ' + $(this).data('quantity'));
 
+      handlePack();
+      makeCartContents(pack);
+    });
+
+    function handlePack() {
       var key = findProduct(product);
 
       if (key) {
@@ -81,19 +89,29 @@
         var size = pack.length;
         pack[size] = {'product': product, 'price': price, 'quantity': quantity};
       }
+    }
 
-      var cartOutput = "<table><tr><th>Product</th><th>Qty</th></tr>";
+    function makeCartContents(pack) {
+      var cartOutput = "<table><tr><th>Product</th><th>Price</th><th>Quantity</th></tr>";
       var total = 0;
       $.each(pack, function ( index, item) {
-        cartOutput = cartOutput + "<tr id='product-" + index + "'><td>" + item.product + "</td><td><input class='spinner' name='value' value='" + item.quantity + "'></td></tr>";
+        cartOutput = cartOutput + "<tr data-id='" + index + "'><td>" + item.product + "</td><td>$" + item.price + "</td><td><input class='spinner' name='value' value='" + item.quantity + "'></td></tr>";
         total += item.price * item.quantity;
       });
       cartOutput = cartOutput + "</table>";
 
       $('#cart-contents').html(cartOutput);
       $('#cart-total').text("$" + total);
-
-    });
+      $('.spinner').spinner( {
+        min: 0,
+        change: function( event, ui) {
+          var newQuantity = $(this).spinner("value");
+          var id = $(this).closest("tr").data('id');
+          pack[id].quantity = newQuantity;
+          makeCartContents(pack);
+        }
+      });
+    }
 
     function findProduct(product) {
       for (var key in pack) {
