@@ -57,6 +57,8 @@
         }
     );
 
+    var pack = [];
+
     $('.add-item').data('price', '').data('quantity', 0)
     .hover(function(){
       $(this).data('price', $(this).text());
@@ -66,16 +68,39 @@
     }).click(function() {
       var product = $(this).closest('.post-title').children('h5').text();
       var price = $(this).data('price');
-
+      price = parseInt(price.substring(1));
       var quantity = $(this).data('quantity') + 1;
       $(this).data('quantity', quantity);
       $(this).text('+ ' + $(this).data('quantity'));
 
-      console.log('quantity: ' + quantity);
-      console.log("value: " + price);
-      console.log("product: " + product);
+      var key = findProduct(product);
+
+      if (key) {
+        pack[key].quantity += 1;
+      } else {
+        var size = pack.length;
+        pack[size] = {'product': product, 'price': price, 'quantity': quantity};
+      }
+
+      var cartOutput = "<table><tr><th>Product</th><th>Qty</th></tr>";
+      var total = 0;
+      $.each(pack, function ( index, item) {
+        cartOutput = cartOutput + "<tr id='product-" + index + "'><td>" + item.product + "</td><td><input class='spinner' name='value' value='" + item.quantity + "'></td></tr>";
+        total += item.price * item.quantity;
+      });
+      cartOutput = cartOutput + "</table>";
+
+      $('#cart-contents').html(cartOutput);
+      $('#cart-total').text("$" + total);
 
     });
+
+    function findProduct(product) {
+      for (var key in pack) {
+        if (pack[key].product == product) return key;
+      }
+      return false
+    }
 
     /* ==============================================
     ACCORDION -->

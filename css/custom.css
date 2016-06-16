@@ -69,3 +69,28 @@
 .panel-primary > .panel-heading + .panel-collapse > .panel-body {
   border-top-color: #ddd;
 }
+
+#cart {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: #35a457;
+  border-radius: 25px;
+  border: solid 1px #35a457;
+  bottom: 5%;
+  right: 5%;
+  z-index: 99999;
+  color: white;
+}
+
+#sidebar-cart tr {
+  border-bottom: solid 1px #ccc;
+}
+
+#sidebar-cart th {
+  font-weight: bold;
+}
+
+#sidebar-cart td {
+   padding: 4px;  
+}

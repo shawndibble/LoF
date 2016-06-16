@@ -184,7 +184,7 @@
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="mini-desti-desc">
-                                    <p>Description of this pack to put here. Something to distinguish from the other packs.</p>
+                                    <p>Our most popular pack for hosting a party. A little of everything, plus helmets.</p>
                                 </div>
                                 <div class="pull-right">
                                   <a href="#booking-form" data-val="party_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
@@ -207,7 +207,7 @@
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="mini-desti-desc">
-                                    <p>Description of this pack to put here. Something to distinguish from the other packs.</p>
+                                    <p>Want to skip out on the helmet and stickers? This slightly smaller pack may be perfect.</p>
                                 </div>
                                 <div class="pull-right">
                                   <a href="#booking-form" data-val="sample_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
@@ -255,7 +255,7 @@
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="mini-desti-desc">
-                                    <p>Description of this pack to put here. Something to distinguish from the other packs.</p>
+                                    <p>Small single shooters. Make the players conscious about how every shot counts.</p>
                                 </div>
                                 <div class="pull-right">
                                   <a href="#booking-form" data-val="pistol_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
@@ -278,7 +278,7 @@
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="mini-desti-desc">
-                                    <p>Description of this pack to put here. Something to distinguish from the other packs.</p>
+                                    <p>It gets hot here in Texas, why not cool off and get soaking wet with this water pack?</p>
                                 </div>
                                 <div class="pull-right">
                                   <a href="#booking-form" data-val="water_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
@@ -301,7 +301,7 @@
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="mini-desti-desc">
-                                    <p>Description of this pack to put here. Something to distinguish from the other packs.</p>
+                                    <p>Not seeing a pack you like? Maybe you should build your own from scratch.</p>
                                 </div>
                                 <div class="pull-right">
                                   <a href="#booking-form" data-val="custom_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
@@ -367,21 +367,21 @@
                 <div class="col-md-6 col-sm-12">
                     <div class="service-style row">
                         <div class="icon-container border-radius col-md-3 col-sm-3 col-xs-3">
-                            <i class="icon-hotel16"></i>
+                            <i class="fa fa-truck"></i>
                         </div>
                         <div class="col-md-9 col-xs-9 col-sm-9">
-                        <h5>HOTEL ONLINE BOOKING SERVICE</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est, impedit incidunt, laboriosam maxime molestias numquam odio officiis. Ab aut dignissimos ea est, impedit incidunt.</p>
+                        <h5>WE DELIVER AND PICKUP</h5>
+                        <p>No need to come out to us. You tell us where and when and we will bring our equipment to you. We provide everything you need for a perfect Nerf<sup>&reg;</sup> party.</p>
                         </div>
                     </div><!-- end service -->
 
                     <div class="service-style row">
                         <div class="icon-container border-radius col-md-3 col-sm-3 col-xs-3">
-                            <i class="icon-airplane51"></i>
+                            <i class="fa fa-credit-card"></i>
                         </div>
                         <div class="col-md-9 col-xs-9 col-sm-9">
-                        <h5>BOOK CHEAP FLIGHTS ONLINE</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est, impedit incidunt, laboriosam maxime molestias numquam odio officiis. Ab aut dignissimos ea est, impedit incidunt.</p>
+                        <h5>Cash and Cards accepted</h5>
+                        <p>We do our very best to accomadate your preferred payment options. We accept all major credit cards, cash and even money orders. <a href="faqs.php">Check our FAQ for more</a>.</p>
                         </div>
                     </div><!-- end service -->
                 </div>
@@ -390,21 +390,21 @@
 
                     <div class="service-style row">
                         <div class="icon-container border-radius col-md-3 col-sm-3 col-xs-3">
-                            <i class="icon-sedan3"></i>
+                            <i class="icon-list"></i>
                         </div>
                         <div class="col-md-9 col-xs-9 col-sm-9">
-                        <h5>TAXI CAB BOOKING HOTLINES</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est, impedit incidunt, laboriosam maxime molestias numquam odio officiis. Ab aut dignissimos ea est, impedit incidunt.</p>
+                        <h5>CUSTOMIZE YOUR PACK</h5>
+                        <p>Our armory houses over 300 weapons. And with over 50 different weapons to choose, you can make your pack your own to enjoy. </p>
                         </div>
                     </div><!-- end service -->
 
                     <div class="service-style row">
                         <div class="icon-container border-radius col-md-3 col-sm-3 col-xs-3">
-                            <i class="icon-location38"></i>
+                            <i class="fa fa-clock-o"></i>
                         </div>
                         <div class="col-md-9 col-xs-9 col-sm-9">
-                        <h5>TOUR GUIDE &amp; PRIVATE GUIDED TOURS</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut dignissimos ea est, impedit incidunt, laboriosam maxime molestias numquam odio officiis. Ab aut dignissimos ea est, impedit incidunt.</p>
+                        <h5>1 HOUR SETUP</h5>
+                        <p>We setup everything for you quickly. This includes blowing up inflatables and layout out weapons, darts and more. Sit back and relax. We will do all the boring work for you.</p>
                         </div>
                     </div><!-- end service -->
                 </div><!-- end col -->
@@ -416,7 +416,7 @@
         <div class="container">
             <div class="home-message text-center">
                 <h1>CREATE AN<br>UNFORGETABLE EVENT</h1>
-                <p>Some call to action text to convice the user to click the button and book.</p>
+                <p>Spend time playing, having a blast and making memories that will last a life time.</p>
                 <a href="#booking-form" class="btn btn-primary btn-lg border-radius">BOOK NOW</a>
             </div><!-- end homemessage -->
         </div><!-- end container -->

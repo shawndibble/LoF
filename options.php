@@ -24,6 +24,21 @@
     </div><!-- end container -->
 </section><!-- end section -->
 
+<section id="cart">
+  <button type="button" id="cart" data-toggle="sidebar" data-target=".sidebar">
+    <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i>
+  </button>
+</section>
+
+<section id="sidebar-cart" class="col-xs-7 col-sm-3 col-md-2 sidebar sidebar-right sidebar-animate">
+  <h3>Your Package</h3>
+  <hr>
+  <div id="cart-contents"></div>
+  <hr>
+  Estimated Total*: <span id="cart-total"></span> <br />
+  <small>*This is only an estimate. Final price may vary.</small>
+</section>
+
 <section class="section clearfix">
     <div class="container">
         <div class="row">
