@@ -153,7 +153,7 @@
                               <div class="panel-heading">
                                   <div class="panel-title">
                                       <a class="accordion-toggle" data-toggle="collapse" href="#collapseTwo">
-                                          <h3>Automatic and Semi-Auto Guns</h3>
+                                          <h3>Automatic and Semi-Auto Weapons</h3>
                                       </a>
                                   </div>
                               </div>
@@ -288,7 +288,7 @@
                               <div class="panel-heading">
                                   <div class="panel-title">
                                       <a class="accordion-toggle" data-toggle="collapse" href="#collapseThree">
-                                          <h3>Multi-pump Pistols</h3>
+                                          <h3>Multi-pump Weapons</h3>
                                       </a>
                                   </div>
                               </div>
@@ -339,7 +339,7 @@
                               <div class="panel-heading">
                                   <div class="panel-title">
                                       <a class="accordion-toggle" data-toggle="collapse" href="#collapseFour">
-                                          <h3>Single Pump Pistols</h3>
+                                          <h3>Single Pump Weapons</h3>
                                       </a>
                                   </div>
                               </div>

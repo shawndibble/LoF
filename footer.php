@@ -2,14 +2,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-10 text-left">
-                    <p>COPYRIGHT LEGION OF FOAM 2016. ALL RIGHT RESERVED. VETERAN OPERATED.</p>
+                    <p>COPYRIGHT LEGION OF FOAM <?= date("Y") ?>. ALL RIGHTS RESERVED. VETERAN OWNED AND OPERATED.</p>
                 </div><!-- end col -->
 
                 <div class="col-md-2 text-right">
                     <div class="social-footer">
-                      <a href="https://twitter.com/LegionOfFoam"><i class="fa fa-twitter"></i></a>
-                      <a href="https://www.facebook.com/legionoffoam"><i class="fa fa-facebook"></i></a>
-                      <a href="http://www.yelp.com/biz/legion-of-foam-pflugerville"><i class="fa fa-yelp"></i></a>
+                      <a target="_blank" href="https://twitter.com/LegionOfFoam"><i class="fa fa-twitter"></i></a>
+                      <a target="_blank" href="https://www.facebook.com/legionoffoam"><i class="fa fa-facebook"></i></a>
+                      <a target="_blank" href="http://www.yelp.com/biz/legion-of-foam-pflugerville"><i class="fa fa-yelp"></i></a>
                     </div><!-- end social-footer -->
                 </div><!-- end col -->
             </div><!-- end row -->

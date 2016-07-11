@@ -35,10 +35,10 @@
                             <div class="contact-info">
                             <ul>
                                 <li><i class="icon-phone"></i> <strong>Phone:</strong> (512) 769-0163</li>
-                                <li><i class="icon-mail"></i> <strong>Email:</strong> <a href="mailto:legionoffoam@gmail.com">legionoffoam@gmail.com</a></li>
-                                <li><i class="icon-link"></i> <strong>Links: </strong> <a href="http://www.yelp.com/biz/legion-of-foam-pflugerville">Yelp</a> |
-                                  <a href="https://www.facebook.com/legionoffoam">Facebook</a> |
-                                  <a href="https://twitter.com/LegionOfFoam">Twitter</a>
+                                <li><i class="icon-link"></i> <strong>Links: </strong>
+                                  <a target="_blank" href="http://www.yelp.com/biz/legion-of-foam-pflugerville">Yelp</a> |
+                                  <a target="_blank" href="https://www.facebook.com/legionoffoam">Facebook</a> |
+                                  <a target="_blank" href="https://twitter.com/LegionOfFoam">Twitter</a>
                                 </li>
                             </ul>
                             </div>

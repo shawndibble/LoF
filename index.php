@@ -9,50 +9,46 @@
   <ul>
     <li>20 Assorted Weapons</li>
     <li>10 Inflatable Barriers</li>
-    <li>9 Inflatable X's</li>
     <li>20 Safety Glasses</li>
-    <li>320 Darts</li>
+    <li>350 Darts</li>
     <li>1 Black (Adult) or Grey (Youth) T-Shirt</li>
-    <li>20 Stickers</li>
+    <li>21 Stickers</li>
     <li>20 Camo Helmets</li>
   </ul>
   <p></p>
-  <h2>$270 &plus; $40 Deposit</h2>";
+  <h2>$275 &plus; $40 Deposit</h2>";
 
   $sample = "
     <h1>Sample Pack</h1>
     <ul>
       <li>18 Assorted Weapons</li>
       <li>10 Inflatable Barriers</li>
-      <li>9 Inflatable X's</li>
       <li>18 Safety Glasses</li>
-      <li>250 Darts</li>
+      <li>275 Darts</li>
       <li>1 Black (Adult) or Grey (Youth) T-Shirt</li>
       <li>1 Sticker</li>
     </ul>
     <p></p>
-    <h2>$220 &plus; $40 Deposit</h2>";
+    <h2>$225 &plus; $40 Deposit</h2>";
 
   $relay = "
     <h1>Relay Pack</h1>
     <ul>
-      <li>16 Assorted Weapons</li>
+      <li>16 Specific Weapons</li>
       <li>10 Inflatable Barriers</li>
-      <li>9 Inflatable X's</li>
       <li>16 Safety Glasses</li>
-      <li>230 Darts</li>
+      <li>225 Darts</li>
       <li>1 Black (Adult) or Grey (Youth) T-Shirt</li>
       <li>1 Sticker</li>
     </ul>
     <p></p>
-    <h2>$210 &plus; $40 Deposit</h2>";
+    <h2>$215 &plus; $40 Deposit</h2>";
 
   $pistol = "
     <h1>Pistol Pack</h1>
     <ul>
-      <li>20 Mixed Pistols</li>
+      <li>20 Assorted Pistols</li>
       <li>10 Inflatable Barriers</li>
-      <li>9 Inflatable X's</li>
       <li>20 Safety Glasses</li>
       <li>200 Darts</li>
       <li>1 Black (Adult) or Grey (Youth) T-Shirt</li>
@@ -64,16 +60,17 @@
   $water = "
     <h1>Water Pack</h1>
     <ul>
-      <li>20 Assorted Water Guns</li>
+      <li>20 Assorted Super Soakers</li>
       <li>10 Inflatable Barriers</li>
-      <li>10 Inflatable X's</li>
+      <li>1 Black (Adult) or Grey (Youth) T-Shirt</li>
+      <li>1 Sticker</li>
     </ul>
     <p></p>
-    <h2>$100 &plus; $40 Deposit</h2>";
+    <h2>$150 &plus; $40 Deposit</h2>";
 
   $custom = "
     <h1>Custom Pack</h1>
-    <p>Custom Packs are built based on what weapons and items you pick on the next page.</p>
+    <p>Custom Packs are built based on what weapons and items you pick on the <a href='options'>options page</a>.</p>
     <p>All packs can be customized, however this one will not utilize the pre-built templates.</p>
     <p></p>
     <h2>Cost Varies &plus; $40 Deposit</h2>";
@@ -180,11 +177,11 @@
                                     <h6>PARTY PACK</h6>
                                 </div>
                                 <div class="pull-right">
-                                    <h6>$270</h6>
+                                    <h6>$275</h6>
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="mini-desti-desc">
-                                    <p>Our most popular pack for hosting a party. A little of everything, plus helmets.</p>
+                                    <p>Our largest package with everything you need for your event, even helmets and stickers as party favors for the soldiers. (Includes 20 assorted weapons, 10 barrier set up, 20 safety glasses, 350 darts, one shirt, 20 helmets and 21 sticker)</p>
                                 </div>
                                 <div class="pull-right">
                                   <a href="#booking-form" data-val="party_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
@@ -203,11 +200,11 @@
                                     <h6>SAMPLE PACK</h6>
                                 </div>
                                 <div class="pull-right">
-                                    <h6>$220</h6>
+                                    <h6>$225</h6>
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="mini-desti-desc">
-                                    <p>Want to skip out on the helmet and stickers? This slightly smaller pack may be perfect.</p>
+                                    <p>A Slightly smaller package but our most popular package including 18 different assorted weapons for 18 different types of fun. (Includes 18 assorted weapons, 10 barrier set up, 18 safety glasses, 275 darts, 1 shirt, and 1 sticker)</p>
                                 </div>
                                 <div class="pull-right">
                                   <a href="#booking-form" data-val="sample_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
@@ -226,11 +223,11 @@
                                     <h6>RELAY PACK</h6>
                                 </div>
                                 <div class="pull-right">
-                                    <h6>$210</h6>
+                                    <h6>$215</h6>
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="mini-desti-desc">
-                                    <p>Description of this pack to put here. Something to distinguish from the other packs.</p>
+                                    <p>Relay Pack $215 – Want the most reliable guns while you battle, then this is the package for you! 16 of our most reliable weapons making every shot count! (Includes 16 specific weapons, 10 barrier set up, 16 safety glasses, 225 darts, one shirt, and 1sticker)</p>
                                 </div>
                                 <div class="pull-right">
                                   <a href="#booking-form" data-val="relay_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
@@ -255,7 +252,7 @@
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="mini-desti-desc">
-                                    <p>Small single shooters. Make the players conscious about how every shot counts.</p>
+                                    <p>Don’t be fooled by the size this package packs 20 times the punch. This package gives you 20 different pistols at your finger tips. (Includes 20 assorted pistols, 10 barrier set up, 20 safety glasses, 200 darts, 1 shirt, and 1 sticker)</p>
                                 </div>
                                 <div class="pull-right">
                                   <a href="#booking-form" data-val="pistol_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
@@ -274,11 +271,11 @@
                                     <h6>WATER PACK</h6>
                                 </div>
                                 <div class="pull-right">
-                                    <h6>$100</h6>
+                                    <h6>$150</h6>
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="mini-desti-desc">
-                                    <p>It gets hot here in Texas, why not cool off and get soaking wet with this water pack?</p>
+                                    <p>It gets hot here in Texas, why not cool off and get soaked with our Super Soaker package? (Includes 20 assorted Super Soakers, 10 barrier set up, 1 shirt, and 1 Sticker)</p>
                                 </div>
                                 <div class="pull-right">
                                   <a href="#booking-form" data-val="water_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
@@ -301,10 +298,10 @@
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="mini-desti-desc">
-                                    <p>Not seeing a pack you like? Maybe you should build your own from scratch.</p>
+                                    <p>Not seeing a pack you like? Maybe you should build your own from scratch. Click book now and be direction to our options/package creation page.</p>
                                 </div>
                                 <div class="pull-right">
-                                  <a href="#booking-form" data-val="custom_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
+                                  <a href="options.php" data-val="custom_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
                                 </div>
                             </div><!-- end title -->
                         </div><!-- end col -->
@@ -404,7 +401,7 @@
                         </div>
                         <div class="col-md-9 col-xs-9 col-sm-9">
                         <h5>1 HOUR SETUP</h5>
-                        <p>We setup everything for you quickly. This includes blowing up inflatables and layout out weapons, darts and more. Sit back and relax. We will do all the boring work for you.</p>
+                        <p>We setup everything for you quickly. This includes inflating all barriers, setting up the battle field, and laying out all the weapons, glasses, and darts on a table. Sit back and relax we got this.</p>
                         </div>
                     </div><!-- end service -->
                 </div><!-- end col -->

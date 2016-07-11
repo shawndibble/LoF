@@ -52,7 +52,7 @@
                                     </div>
                                     <div id="collapseOne" class="panel-collapse collapse in">
                                         <div class="panel-body">
-                                            <p>Yes, visit our armory to pick out the weapons desired for your custom package and message us on our contact page with the list of weapons needed.</p>
+                                            <p>Yes, visit our <a href="options.php">options tab.</a></p>
                                         </div>
                                     </div>
                                 </div>
@@ -127,7 +127,7 @@
                                     </div>
                                     <div id="collapseSix" class="panel-collapse collapse">
                                         <div class="panel-body">
-                                            <p>If you are the first to reserve the date for your event you can rent the equipment as early as 10:30 AM up to 6:00 PM.There are no hourly charges.</p>
+                                            <p>-You can rent the equipment for up to 4 hours. Rent the equipment as early as 10:30 AM and as late as 7:30 PM.  There are no hourly charges and if you need the equipment for more time please specify in the message to LOF.</p>
                                         </div>
                                     </div>
                                 </div>
