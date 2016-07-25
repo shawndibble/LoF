@@ -50,17 +50,20 @@
                                 <div id="message"></div>
                                 <form id="contactform" class="row" action="process-contact.php" name="contactform" method="post">
                                     <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input type="text" name="name" id="name" class="form-control" placeholder="Name *">
+                                      <input type="text" name="name" id="name" class="form-control" placeholder="Name *">
                                     </div>
                                     <div class="col-md-6 col-sm-6 col-xs-12">
-                                    <input type="text" name="email" id="email" class="form-control" placeholder="Email *">
+                                      <input type="text" name="email" id="email" class="form-control" placeholder="Email *">
                                     </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <input type="text" id="subject" class="form-control" placeholder="Subject">
+                                      <input type="text" id="subject" class="form-control" placeholder="Subject">
                                     </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12">
-                                    <textarea class="form-control" name="comments" id="comments" rows="8" placeholder="Messages goes here.."></textarea>
-                                    <button type="submit" value="SEND" id="submit" class="pull-right btn btn-primary btn-lg border-radius">SUBMIT</button>
+                                      <textarea class="form-control" name="comments" id="comments" rows="8" placeholder="Messages goes here.."></textarea>
+                                    </div>
+                                    <div class="col-md-12 col-sm-12 col-xs-12">
+                                      <div class="g-recaptcha" data-sitekey="6LfuqOwSAAAAANbsB9f2yCZplbt3B97HpsCp025D"></div>
+                                      <button type="submit" value="SEND" id="submit" class="pull-right btn btn-primary btn-lg border-radius">SUBMIT</button>
                                     </div>
                                 </form>
                             </div><!-- end contact-form -->

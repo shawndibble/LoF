@@ -1,5 +1,10 @@
 <?php
 
+require_once "recaptchalib.php";
+
+// your secret key
+$secret = "6LfuqOwSAAAAAGmV7ypspr6u8gS0UCzNYOyxHOe-";
+
 if(!$_POST) exit;
 
 // Email address verification, do not edit.
@@ -11,10 +16,24 @@ if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
 $name     = isset($_POST['name']) ? $_POST['name'] : '';
 $email    = isset($_POST['email']) ? $_POST['email'] : '';
-$phone   = isset($_POST['phone']) ? $_POST['phone'] : '';
 $subject  = isset($_POST['subject']) ? $_POST['subject'] : '';
 $comments = isset($_POST['comments']) ? $_POST['comments'] : '';
-$verify   = isset($_POST['verify']) ? $_POST['verify'] : '';
+
+$response = null;
+$reCaptcha = new ReCaptcha($secret);
+
+if ($_POST["g-recaptcha-response"]) {
+    $response = $reCaptcha->verifyResponse(
+        $_SERVER["REMOTE_ADDR"],
+        $_POST["g-recaptcha-response"]
+    );
+}
+
+if () {
+  echo "Hi " . $_POST["name"] . " (" . $_POST["email"] . "), thanks for submitting the form!";
+} else {
+
+}
 
 if(trim($name) == '') {
 	echo '<div class="error_message">Attention! You must enter your name.</div>';
@@ -24,6 +43,9 @@ if(trim($name) == '') {
 	exit();
 } else if(!isEmail($email)) {
 	echo '<div class="error_message">Attention! You have enter an invalid e-mail address, try again.</div>';
+	exit();
+} else if($response == null || !$response->success) {
+	echo '<div class="error_message">Attention! You failed the captcha, try again.</div>';
 	exit();
 }
 
@@ -42,7 +64,7 @@ if(get_magic_quotes_gpc()) {
 // Example $address = "joe.doe@yourdomain.com";
 
 //$address = "example@themeforest.net";
-$address = "example@themeforest.com";
+$address = "legionoffoam@gmail.com";
 
 
 // Configuration option.

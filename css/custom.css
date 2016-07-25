@@ -26,6 +26,12 @@
   }
 }
 
+@media (max-width: 767px) {
+  .panel-body .post-media img {
+    height: 100%;
+  }
+}
+
 #call-to-action .home-message {
   padding: 0;
 }

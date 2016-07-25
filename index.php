@@ -325,12 +325,19 @@
 
                 <div class="testi-item home-message text-center">
                     <div class="hotel-title text-center">
-                        <h3>THANKS YOU TRIPS! THIS IS AMAZING TRAVEL!</h3>
+                        <h3>DEFINATELY RECOMMEND USING THIS COMPANY... (KIDS OR ADULTS)!!</h3>
                         <hr>
-                        <p>Template based on deep research on the most popular travel booking websites such as booking.com, tripadvisor, yahoo<br>
-                            travel, expedia, priceline, hotels.com, travelocity, kayak, orbitz, etc. This guys can’t be wrong.<br>
-                            You should definitely give it a shot :)</p>
-                        <h6>- DAVID / CEO AGODA -</h6>
+                        <p>The owners of Legion Of Foam Inc. are so easy to work with in coordination and planning of anything your heart desires. The ease of communication ensures that nothing will be lost when making sure that your big day is exactly what you want. There is always so much to worry about when planning a party and when you don't have to worry about the entertainment for the kiddos, creates an ease about the whole thing. Definitely recommend using this company for your next party (kids or adults)!!</p>
+                        <h6>- MELISSA PERES BELLMAN -</h6>
+                    </div>
+                </div><!-- end testi-item -->
+
+                <div class="testi-item home-message text-center">
+                    <div class="hotel-title text-center">
+                        <h3>BEST BIRTHDAY PARTY I'VE EVER HOSTED</h3>
+                        <hr>
+                        <p>Best birthday party I've ever hosted. I could barely even get the kids to come eat pizza and cupcakes. My son and his friends are 7 and 8 year old. They didn't even need any direction, they just made up their own games for 2 hours. They were prompt in setting up and taking down, and responsive to questions before the party. I highly recommend this business to anyone who has a Nerf gun loving kid.</p>
+                        <h6>- STACY FULLER CURTIS -</h6>
                     </div>
                 </div><!-- end testi-item -->
             </div><!-- end testimonials -->
