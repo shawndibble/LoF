@@ -63,6 +63,12 @@
                 <input type="text" value="<?=$end ?>" class="form-control datetimepicker" id="end" placeholder="Event End" required="true">
             </div>
 
+            <div class="input-group">
+                <textarea class="form-control" id="package-comments" placeholder="Additional Comments"></textarea>
+            </div>
+
+            <div class="g-recaptcha" id="package-captcha" data-sitekey="6LfuqOwSAAAAANbsB9f2yCZplbt3B97HpsCp025D"></div>
+
             <button type="submit" class="btn btn-primary btn-block" id="home-book-button"><i class="icon-calendar"></i> BOOK NOW</button>
 
   </form>

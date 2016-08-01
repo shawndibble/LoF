@@ -126,7 +126,20 @@
   padding: 0;
 }
 
+.g-recaptcha {
+  float:left;
+}
 
+#package-comments {
+  height: 80px !important;
+  padding: 10px !important;
+}
+
+#package-captcha {
+  width: 268px;
+  overflow: hidden;
+  border-right: solid 1px #ccc;
+}
 
 .ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
     border-radius: 0px !important;

@@ -82,7 +82,7 @@
                                     <span class="sr-only">Toggle navigation</span>
                                     <i class="icon-menu27"></i>
                                 </button>
-                                <a id="brand" class="clearfix navbar-brand" href="index.html"><img src="http://legionoffoam.com/images/LOF%20Logo1.png" alt="Legion of Foam" style="height: 60px; width:auto;"></a>
+                                <a id="brand" class="clearfix navbar-brand" href="index.html"><img src="images/logo.png" alt="Legion of Foam" style="margin-top: -20px;"></a>
                             </div><!-- end navbar-header -->
                             <div id="navbar-collapse" class="navbar-right navbar-collapse collapse clearfix">
                                 <ul class="nav navbar-nav yamm">
