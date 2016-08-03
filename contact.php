@@ -37,6 +37,7 @@
                                 <li><i class="icon-phone"></i> <strong>Phone:</strong> (512) 769-0163</li>
                                 <li><i class="icon-link"></i> <strong>Links: </strong>
                                   <a target="_blank" href="http://www.yelp.com/biz/legion-of-foam-pflugerville">Yelp</a> |
+                                  <a target="_blank" href="http://instagram.com/legionoffoam">Instagram</a> |
                                   <a target="_blank" href="https://www.facebook.com/legionoffoam">Facebook</a> |
                                   <a target="_blank" href="https://twitter.com/LegionOfFoam">Twitter</a>
                                 </li>
@@ -56,14 +57,14 @@
                                       <input type="text" name="email" id="email" class="form-control" placeholder="Email *">
                                     </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12">
-                                      <input type="text" id="subject" class="form-control" placeholder="Subject">
+                                      <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject">
                                     </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12">
                                       <textarea class="form-control" name="comments" id="comments" rows="8" placeholder="Messages goes here.."></textarea>
                                     </div>
                                     <div class="col-md-12 col-sm-12 col-xs-12">
-                                      <div class="g-recaptcha" data-sitekey="6LfuqOwSAAAAANbsB9f2yCZplbt3B97HpsCp025D"></div>
-                                      <button type="submit" value="SEND" id="submit" class="pull-right btn btn-primary btn-lg border-radius">SUBMIT</button>
+                                      <div class="g-recaptcha" data-sitekey="6LeuqSYTAAAAAPYklrGwHE0MAuuuL1JHshIz8iI2"></div>
+                                      <input type="submit" value="SUBMIT" id="submit" class="pull-right btn btn-primary btn-lg border-radius">
                                     </div>
                                 </form>
                             </div><!-- end contact-form -->

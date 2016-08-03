@@ -38,6 +38,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script>var page = "<?=$page ?>";</script>
 
 
 </head>
@@ -63,6 +64,7 @@
                 <ul class="topbar-social list-inline">
                     <li><a target="_blank" href="https://twitter.com/LegionOfFoam"><i class="fa fa-twitter"></i></a></li>
                     <li><a target="_blank" href="https://www.facebook.com/legionoffoam"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="http://instagram.com/legionoffoam"><i class="fa fa-instagram"></i></a></li>
                     <li><a target="_blank" href="http://www.yelp.com/biz/legion-of-foam-pflugerville"><i class="fa fa-yelp"></i></a></li>
                 </ul><!-- end list-style -->
             </div><!-- end right -->

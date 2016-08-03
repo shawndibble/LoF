@@ -38,7 +38,7 @@
         if ($('#pack').val() == 'custom_pack') {
           $(this).closest('form').attr("action", "options.php");
         } else {
-          $(this).closest('form').attr("action", "success.php");
+          $(this).closest('form').attr("action", "process-booking.php");
         }
       });
 
@@ -71,7 +71,7 @@
     }).click(function() {
       product = $(this).closest('.post-title').children('h5').text();
       price = $(this).data('price');
-      price = parseInt(price.substring(1));
+      price = parseFloat(price.substring(1));
       quantity = $(this).data('quantity') + 1;
       $(this).data('quantity', quantity);
       $(this).text('+ ' + $(this).data('quantity'));
@@ -95,7 +95,7 @@
       var cartOutput = "<table><tr><th>Product</th><th>Price</th><th>Quantity</th></tr>";
       var total = 0;
       $.each(pack, function ( index, item) {
-        cartOutput = cartOutput + "<tr data-id='" + index + "'><td>" + item.product + "</td><td>$" + item.price + "</td><td><input class='spinner' name='value' value='" + item.quantity + "'></td></tr>";
+        cartOutput = cartOutput + "<tr data-id='" + index + "'><td>" + item.product + "</td><td>$" + item.price + "</td><td><input class='spinner' name='product[\"" + item.product + "\"]' value='" + item.quantity + "'></td></tr>";
         total += item.price * item.quantity;
       });
       cartOutput = cartOutput + "</table>";
@@ -235,7 +235,6 @@
     /* ==============================================
     MAP -->
     =============================================== */
-
     var locations = [
         ['OUR INFORMATIONS', 30.267153, -97.74306079999997, 2]
         ];
@@ -273,6 +272,8 @@
             }
           })(marker, i));
         }
+
+
 
 })(jQuery);
 

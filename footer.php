@@ -9,6 +9,7 @@
                     <div class="social-footer">
                       <a target="_blank" href="https://twitter.com/LegionOfFoam"><i class="fa fa-twitter"></i></a>
                       <a target="_blank" href="https://www.facebook.com/legionoffoam"><i class="fa fa-facebook"></i></a>
+                      <a target="_blank" href="http://instagram.com/legionoffoam"><i class="fa fa-instagram"></i></a>
                       <a target="_blank" href="http://www.yelp.com/biz/legion-of-foam-pflugerville"><i class="fa fa-yelp"></i></a>
                     </div><!-- end social-footer -->
                 </div><!-- end col -->

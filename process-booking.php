@@ -1,3 +1,4 @@
+
 <?php
 
 require_once "recaptchalib.php";
@@ -15,11 +16,16 @@ function isEmail($email) {
 
 if (!defined("PHP_EOL")) define("PHP_EOL", "\r\n");
 
+$pack = isset($_POST['pack']) ? $_POST['pack'] : false;
+$product = isset($_POST['product']) ? $_POST['product'] : [];
 $name     = isset($_POST['name']) ? $_POST['name'] : '';
 $email    = isset($_POST['email']) ? $_POST['email'] : '';
-$subject  = isset($_POST['subject']) ? $_POST['subject'] : '';
+$phone  = isset($_POST['phone']) ? $_POST['phone'] : '';
+$location     = isset($_POST['location']) ? $_POST['location'] : '';
+$start    = isset($_POST['start']) ? $_POST['start'] : '';
+$end  = isset($_POST['end']) ? $_POST['end'] : '';
 $comments = isset($_POST['comments']) ? $_POST['comments'] : '';
-$recaptcha = isset($_POST['recaptcha']) ? $_POST['recaptcha'] : '';
+$recaptcha = isset($_POST['g-recaptcha-response']) ? $_POST['g-recaptcha-response'] : '';
 
 $response = null;
 $reCaptcha = new ReCaptcha($secret);
@@ -40,12 +46,8 @@ if(trim($name) == '') {
 } else if(!isEmail($email)) {
 	echo '<div class="error_message">Attention! You have enter an invalid e-mail address, try again.</div>';
 	exit();
-} else if($response == null || !$response->success) {
+} else if($_SERVER['PHP_SELF'] == '/options.php' && ($response == null || !$response->success) ) {
 	echo '<div class="error_message">Attention! You failed the captcha, try again.</div>';
-	exit();
-}
-if(trim($comments) == '') {
-	echo '<div class="error_message">Attention! Please enter your message.</div>';
 	exit();
 }
 
@@ -65,13 +67,22 @@ $e_subject = 'You\'ve been booked by ' . $name . '.';
 // You can change this if you feel that you need to.
 // Developers, you may wish to add more fields to the form, in which case you must be sure to add them here.
 
-$e_body = "You have been contacted by $name with regards to $subject, their additional message is as follows." . PHP_EOL . PHP_EOL;
-$e_content = "\"$comments\"" . PHP_EOL . PHP_EOL;
-$e_reply = "You can contact $name via email, $email or via phone $phone";
+$e_body = "You have been contacted by $name with regards to booking, at $location from $start until $end" . PHP_EOL . PHP_EOL;
+$e_content = "Comments: \"$comments\" \r\n \r\n";
+
+if ($pack) {
+	$e_content .= "Pack: $pack";
+}
+
+foreach($product as $key => $value) {
+	$e_content .= "$value $key \r\n";
+}
+
+$e_reply = "\r\n You can contact $name via email, $email or via phone $phone";
 
 $msg = wordwrap( $e_body . $e_content . $e_reply, 70 );
 
-$headers = "From: contact@legionoffoam.com" . PHP_EOL;
+$headers = "From: booking@legionoffoam.com" . PHP_EOL;
 $headers .= "Reply-To: $email" . PHP_EOL;
 $headers .= "MIME-Version: 1.0" . PHP_EOL;
 $headers .= "Content-type: text/plain; charset=utf-8" . PHP_EOL;
@@ -79,17 +90,11 @@ $headers .= "Content-Transfer-Encoding: quoted-printable" . PHP_EOL;
 
 if(mail($address, $e_subject, $msg, $headers)) {
 
-	// Email has sent successfully, echo a success page.
-
-	echo "<fieldset>";
-	echo "<div id='success_page'>";
-	echo "<h1>Email Sent Successfully.</h1>";
-	echo "<p>Thank you <strong>$name</strong>, your message has been submitted to us.</p>";
-	echo "</div>";
-	echo "</fieldset>";
+	$url = 'http://legionoffoam.com/successful.php';
+	header("Location: $url");
 
 } else {
 
-	echo 'ERROR!';
+	echo 'Failed to book!';
 
 }

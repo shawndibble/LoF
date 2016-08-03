@@ -2131,7 +2131,6 @@ a,
 	.topbar .pull-left,
 	.topbar-social,
 	.topbar .pull-right {
-		float:none !important;
 		text-align: center !important;
 	}
 	.copyrights .text-left,

@@ -82,10 +82,10 @@
                 <div class="col-md-5 col-xs-12">
                     <div class="home-form" id="booking-form">
                       <h6>ARE YOU READY FOR A NERF<sup>&reg;</sup> FIGHT?</h6>
-                      <form action="options.php" class="bookform form-inline row" method="post" enctype="application/x-www-form-urlencoded">
+                      <form class="bookform form-inline row" method="post" enctype="application/x-www-form-urlencoded">
                           <div class="form-group btm-margin-30 col-md-12 col-sm-12 col-xs-12">
                               <div class="dropdown">
-                                  <select class="selectpicker" id="pack" data-style="btn-white">
+                                  <select class="selectpicker" id="pack" name="pack" data-style="btn-white">
                                       <option value="party_pack">Party Pack</option>
                                       <option value="sample_pack">Sample Pack</option>
                                       <option value="relay_pack">Relay Pack</option>
@@ -227,7 +227,7 @@
                                 </div>
                                 <div class="clearfix"></div>
                                 <div class="mini-desti-desc">
-                                    <p>Relay Pack $215 – Want the most reliable guns while you battle, then this is the package for you! 16 of our most reliable weapons making every shot count! (Includes 16 specific weapons, 10 barrier set up, 16 safety glasses, 225 darts, one shirt, and 1sticker)</p>
+                                    <p>Want the most reliable guns while you battle, then this is the package for you! 16 of our most reliable weapons making every shot count! (Includes 16 specific weapons, 10 barrier set up, 16 safety glasses, 225 darts, one shirt, and 1sticker)</p>
                                 </div>
                                 <div class="pull-right">
                                   <a href="#booking-form" data-val="relay_pack" class="book-now btn btn-primary btn-sm">Book Now</a>
